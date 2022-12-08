@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UdemyCPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyCPP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyCPP-Debug-18d84f3e1efc5ffd05bd.json",
+					"name" : "UdemyCPP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyCPP_BubbleSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyCPP_BubbleSort-Debug-786ee72d326b458070fa.json",
+					"name" : "UdemyCPP_BubbleSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyCPP_aula22::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyCPP_aula22-Debug-471ff9cd31e2366db7cc.json",
+					"name" : "UdemyCPP_aula22",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyCPP_aula23::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyCPP_aula23-Debug-02ddc77643dc3029a38a.json",
+					"name" : "UdemyCPP_aula23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyCPP_aula24::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyCPP_aula24-Debug-9cec7bf36f049b3cb28f.json",
+					"name" : "UdemyCPP_aula24",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UdemyCPP_aula26::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UdemyCPP_aula26-Debug-03464d0c70ff417e7d47.json",
+					"name" : "UdemyCPP_aula26",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug",
+		"source" : "/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

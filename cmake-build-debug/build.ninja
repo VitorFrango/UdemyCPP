@@ -1,0 +1,324 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: UdemyCPP
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyCPP
+
+
+#############################################
+# Order-only phony target for UdemyCPP
+
+build cmake_object_order_depends_target_UdemyCPP: phony || CMakeFiles/UdemyCPP.dir
+
+build CMakeFiles/UdemyCPP.dir/main.cpp.o: CXX_COMPILER__UdemyCPP_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/main.cpp || cmake_object_order_depends_target_UdemyCPP
+  DEP_FILE = CMakeFiles/UdemyCPP.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP.dir
+
+build CMakeFiles/UdemyCPP.dir/aula22.cpp.o: CXX_COMPILER__UdemyCPP_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula22.cpp || cmake_object_order_depends_target_UdemyCPP
+  DEP_FILE = CMakeFiles/UdemyCPP.dir/aula22.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP.dir
+
+build CMakeFiles/UdemyCPP.dir/aula23.cpp.o: CXX_COMPILER__UdemyCPP_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula23.cpp || cmake_object_order_depends_target_UdemyCPP
+  DEP_FILE = CMakeFiles/UdemyCPP.dir/aula23.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP.dir
+
+build CMakeFiles/UdemyCPP.dir/aula24.cpp.o: CXX_COMPILER__UdemyCPP_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula24.cpp || cmake_object_order_depends_target_UdemyCPP
+  DEP_FILE = CMakeFiles/UdemyCPP.dir/aula24.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP.dir
+
+build CMakeFiles/UdemyCPP.dir/BubbleSort.cpp.o: CXX_COMPILER__UdemyCPP_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/BubbleSort.cpp || cmake_object_order_depends_target_UdemyCPP
+  DEP_FILE = CMakeFiles/UdemyCPP.dir/BubbleSort.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP.dir
+
+build CMakeFiles/UdemyCPP.dir/aula26.cpp.o: CXX_COMPILER__UdemyCPP_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula26.cpp || cmake_object_order_depends_target_UdemyCPP
+  DEP_FILE = CMakeFiles/UdemyCPP.dir/aula26.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyCPP
+
+
+#############################################
+# Link the executable UdemyCPP
+
+build UdemyCPP: CXX_EXECUTABLE_LINKER__UdemyCPP_Debug CMakeFiles/UdemyCPP.dir/main.cpp.o CMakeFiles/UdemyCPP.dir/aula22.cpp.o CMakeFiles/UdemyCPP.dir/aula23.cpp.o CMakeFiles/UdemyCPP.dir/aula24.cpp.o CMakeFiles/UdemyCPP.dir/BubbleSort.cpp.o CMakeFiles/UdemyCPP.dir/aula26.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyCPP.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyCPP
+  TARGET_PDB = UdemyCPP.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyCPP_aula22
+
+
+#############################################
+# Order-only phony target for UdemyCPP_aula22
+
+build cmake_object_order_depends_target_UdemyCPP_aula22: phony || CMakeFiles/UdemyCPP_aula22.dir
+
+build CMakeFiles/UdemyCPP_aula22.dir/aula22.cpp.o: CXX_COMPILER__UdemyCPP_aula22_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula22.cpp || cmake_object_order_depends_target_UdemyCPP_aula22
+  DEP_FILE = CMakeFiles/UdemyCPP_aula22.dir/aula22.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula22.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP_aula22.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyCPP_aula22
+
+
+#############################################
+# Link the executable UdemyCPP_aula22
+
+build UdemyCPP_aula22: CXX_EXECUTABLE_LINKER__UdemyCPP_aula22_Debug CMakeFiles/UdemyCPP_aula22.dir/aula22.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula22.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyCPP_aula22
+  TARGET_PDB = UdemyCPP_aula22.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyCPP_aula23
+
+
+#############################################
+# Order-only phony target for UdemyCPP_aula23
+
+build cmake_object_order_depends_target_UdemyCPP_aula23: phony || CMakeFiles/UdemyCPP_aula23.dir
+
+build CMakeFiles/UdemyCPP_aula23.dir/aula23.cpp.o: CXX_COMPILER__UdemyCPP_aula23_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula23.cpp || cmake_object_order_depends_target_UdemyCPP_aula23
+  DEP_FILE = CMakeFiles/UdemyCPP_aula23.dir/aula23.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula23.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP_aula23.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyCPP_aula23
+
+
+#############################################
+# Link the executable UdemyCPP_aula23
+
+build UdemyCPP_aula23: CXX_EXECUTABLE_LINKER__UdemyCPP_aula23_Debug CMakeFiles/UdemyCPP_aula23.dir/aula23.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula23.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyCPP_aula23
+  TARGET_PDB = UdemyCPP_aula23.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyCPP_aula24
+
+
+#############################################
+# Order-only phony target for UdemyCPP_aula24
+
+build cmake_object_order_depends_target_UdemyCPP_aula24: phony || CMakeFiles/UdemyCPP_aula24.dir
+
+build CMakeFiles/UdemyCPP_aula24.dir/aula24.cpp.o: CXX_COMPILER__UdemyCPP_aula24_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula24.cpp || cmake_object_order_depends_target_UdemyCPP_aula24
+  DEP_FILE = CMakeFiles/UdemyCPP_aula24.dir/aula24.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula24.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP_aula24.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyCPP_aula24
+
+
+#############################################
+# Link the executable UdemyCPP_aula24
+
+build UdemyCPP_aula24: CXX_EXECUTABLE_LINKER__UdemyCPP_aula24_Debug CMakeFiles/UdemyCPP_aula24.dir/aula24.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula24.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyCPP_aula24
+  TARGET_PDB = UdemyCPP_aula24.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyCPP_aula26
+
+
+#############################################
+# Order-only phony target for UdemyCPP_aula26
+
+build cmake_object_order_depends_target_UdemyCPP_aula26: phony || CMakeFiles/UdemyCPP_aula26.dir
+
+build CMakeFiles/UdemyCPP_aula26.dir/aula26.cpp.o: CXX_COMPILER__UdemyCPP_aula26_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/aula26.cpp || cmake_object_order_depends_target_UdemyCPP_aula26
+  DEP_FILE = CMakeFiles/UdemyCPP_aula26.dir/aula26.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula26.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP_aula26.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyCPP_aula26
+
+
+#############################################
+# Link the executable UdemyCPP_aula26
+
+build UdemyCPP_aula26: CXX_EXECUTABLE_LINKER__UdemyCPP_aula26_Debug CMakeFiles/UdemyCPP_aula26.dir/aula26.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyCPP_aula26.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyCPP_aula26
+  TARGET_PDB = UdemyCPP_aula26.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UdemyCPP_BubbleSort
+
+
+#############################################
+# Order-only phony target for UdemyCPP_BubbleSort
+
+build cmake_object_order_depends_target_UdemyCPP_BubbleSort: phony || CMakeFiles/UdemyCPP_BubbleSort.dir
+
+build CMakeFiles/UdemyCPP_BubbleSort.dir/BubbleSort.cpp.o: CXX_COMPILER__UdemyCPP_BubbleSort_Debug /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/BubbleSort.cpp || cmake_object_order_depends_target_UdemyCPP_BubbleSort
+  DEP_FILE = CMakeFiles/UdemyCPP_BubbleSort.dir/BubbleSort.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/UdemyCPP_BubbleSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/UdemyCPP_BubbleSort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UdemyCPP_BubbleSort
+
+
+#############################################
+# Link the executable UdemyCPP_BubbleSort
+
+build UdemyCPP_BubbleSort: CXX_EXECUTABLE_LINKER__UdemyCPP_BubbleSort_Debug CMakeFiles/UdemyCPP_BubbleSort.dir/BubbleSort.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/UdemyCPP_BubbleSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UdemyCPP_BubbleSort
+  TARGET_PDB = UdemyCPP_BubbleSort.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug && "/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug && "/Users/vitorfrango/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP -B/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug
+
+build all: phony UdemyCPP UdemyCPP_aula22 UdemyCPP_aula23 UdemyCPP_aula24 UdemyCPP_aula26 UdemyCPP_BubbleSort
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/vitorfrango/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

@@ -1,0 +1,8 @@
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/UdemyCPP.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/UdemyCPP_aula22.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/UdemyCPP_aula23.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/UdemyCPP_aula24.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/UdemyCPP_aula26.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/UdemyCPP_BubbleSort.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vitorfrango/Library/CloudStorage/OneDrive-Personal/programacao/UdemyCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
